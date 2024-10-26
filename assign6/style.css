@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .music-player {
+    text-align: center;
+  }
+  
+  #cover {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  #track-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #track-list li {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  #track-list li:hover {
+    background-color: #dcdcdc;
+  }
+  
